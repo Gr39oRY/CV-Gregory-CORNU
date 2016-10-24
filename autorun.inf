@@ -1,0 +1,4 @@
+[autorun]
+icon=images/ico.ico
+label=Grégory CORNU
+shellexecute=index.html
