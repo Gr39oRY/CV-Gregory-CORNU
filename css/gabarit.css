@@ -5,28 +5,16 @@
    http://creativecommons.org/licenses/by/2.0/fr/
    ============================================== */
 
-
-/* --- COULEURS --- */
-
-/* Note: vous pouvez modifier simplement l'aspect de ce gabarit en modifiant
-   uniquement les couleurs de fond (propriétés background) et les couleurs
-   du texte (propriété color).
-   Pour modifier la disposition des blocs, voir plus bas dans la feuille de
-   styles la partie «positionnement». */
-
+div {
+	border-width: 2px;
+	border-style: ridge;
+	border-color: #CCCCCC;
+}
+   
 /* Général */
 body {
 	color: #FFFFFF;
-	background: #2C2F22;
-}
-a {
-	color: #FFFFFF;
-}
-a:hover, a:focus {
-	color: #FF9900;
-}
-strong {
-	color: #FF9900;
+	background: #333333;
 }
 
 /* Global */
@@ -39,30 +27,24 @@ strong {
 #navigation {
 	background: #3939AE;
 	text-align: center;
+	padding-bottom : 15px;
 }
 #navigation a {
 	color: #FFFFFF;
 	font-weight: bold;
 }
-#navigation a:hover, #navigation a:focus {
-	
-}
 
 /* Contenu principal */
 #contenu {
-	color: #363B29;
-	background: #cbd888;
+	color: #333333;
+	background: #FFFFFF;
 }
 #contenu a {
-	color: #332510;
+	color: #333333;
 }
 #contenu a:hover, #contenu a:focus {
 	color: #FF9900;
 }
-#contenu strong {
-	color: #181A12;
-}
-
 
 /* --- POSITIONNEMENT --- */
 
@@ -80,49 +62,43 @@ body {
 	padding: 20px;
 }
 #entete h1 {
-	margin: 0;
 	color: #FFFFFF;
-}
-#entete h1 img {
-	float: left;
-	margin: 7px 20px 10px 0;
-}
-#entete .sous-titre {
-	margin: 4px 0 15px 0;
 }
 
 /* Menu de navigation */
 #navigation {
 	width: 18%; /* -> 4 */
 	float: left;
-	padding: 10px;
+	text-align: center;
 }
 #navigation ul {
 	margin: 0;
-	padding: 20px 10px;
 	list-style: none;
 }
-#navigation a {
-	display: block;
-	height: 1%; /* -> 5 */
-	padding: 6px 6px 6px 6px;
-	line-height: 1.5;
-	font-size: .9em;
-	text-decoration: none;
+#navigation li {
+	margin: 10px;
+	padding-bottom: 20px;
 }
 
 /* Contenu */
 #contenu {
 	margin-left: 20%; /* -> 6 */
+	margin-right: 20px; /* -> 6 */
 	padding: 10px 20px;
 }
 #contenu > :first-child {
 	margin-top: 10px;
 }
-#contenu p, #contenu li {
-	line-height: 1.5;
-}
 
+/* Bloc contact */
+#contact {
+	display: block;
+	text-align: center;
+	border-width: 2px;
+	border-color: #FF9900;
+	border-style: solid;
+	margin: 10px;
+}
 
 /* --- NOTES ---
 

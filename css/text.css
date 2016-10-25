@@ -1,0 +1,38 @@
+﻿/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS
+   © Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   http://creativecommons.org/licenses/by/2.0/fr/
+   ============================================== */
+
+
+/* --- STYLES DE BASE POUR LE TEXTE ET LES PRINCIPAUX ÉLÉMENTS --- */
+
+/* Page */
+body {
+	font-family: Arial;
+}
+
+/* Listes */
+
+/* Paragraphes */
+
+/* Citations */
+
+/* Liens */
+a:link, a:hover, a:focus, a:active, a:visited {
+	color: #FF9900;
+}
+a img {
+	border: none;
+}
+
+strong {
+	font-weight: bold;
+}
+enlight {
+	color: #FF9900;
+	font-weight: bold;
+}
+
+
