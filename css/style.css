@@ -36,7 +36,6 @@
 	display: none;
 	background: #fff;
 	padding: 15px;
-			
 	line-height:1.4;
 }
 
@@ -74,9 +73,15 @@ body {
 }
 
 p {
-	margin: 0 0 24px;
-	margin: 0 0 2.4rem;
+	margin: 0 0 4px;
 	padding: 0;
+}
+
+li p {
+	margin: 0 0 4px;
+	padding: 0 0 0 5px;
+	font-size: 14px;
+	font-style: italic;
 }
 
 
@@ -89,7 +94,7 @@ a {
 }
 
 a:hover {
-	text-decoration: underline; 
+	text-decoration: none; 
 	color: #f90;
 }
 
@@ -187,6 +192,9 @@ nav ul li {
 	padding: 15px 1.5% 15px 1.5% ;
 }
 
+nav a {
+	color: #fff;
+}
 
 /* Content
 --------------------------------------------- */
