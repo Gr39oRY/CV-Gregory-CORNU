@@ -1,2 +1,4 @@
+Sitemap: http://www.mon-domaine.fr/sitemap.xml
+
 User-agent: *
 Disallow: /
