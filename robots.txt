@@ -6,7 +6,3 @@ Allow: /index*
 Disallow: /ressources/
 Disallow: /css/
 Disallow: /js/
-
-
-User-agent: AdsBot-Google
-Disallow: /
