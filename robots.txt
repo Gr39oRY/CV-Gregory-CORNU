@@ -1,8 +1,6 @@
 Sitemap: http://www.gregorycornu.fr/sitemap.xml
 
 User-agent: *
-Allow: /sitemap.xml
-Allow: /index*
 Disallow: /ressources/
 Disallow: /css/
 Disallow: /js/
