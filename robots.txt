@@ -4,6 +4,7 @@ User-agent: *
 Disallow: /ressources/
 Disallow: /css/
 Disallow: /js/
+Allow: robots.txt
 Allow: /sitemap.xml
 Allow: /index*
 
