@@ -2,3 +2,8 @@ Sitemap: http://www.gregorycornu.fr/sitemap.xml
 
 User-agent: *
 Disallow: /
+Allow: /sitemap.xml
+Allow: /index*
+
+User-agent: AdsBot-Google
+Disallow: /
