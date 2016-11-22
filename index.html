@@ -1,7 +1,7 @@
 <html lang="fr">
 <head>
 	<meta name="description" content="Site professionnel de Gr&eacute;gory CORNU">
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' data: www.google-analytics.com; object-src 'self';">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' data: www.google-analytics.com; object-src 'self'; img-src'self' www.google-analytics.com;">
 	<!-- <meta http-equiv="X-Frame-Options" content="DENY"> -->
 	<meta http-equiv="X-XSS-Protection" content="1; mode=block">
 	<meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -218,6 +218,16 @@
   ga('create', 'UA-86406144-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "WebSite",
+  "name": "Grégory CORNU",
+  "url": "http://www.gregorycornu.fr"
+}
+ </script>
+
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/animate.js" type="text/javascript"></script>
 
