@@ -24,6 +24,10 @@
 	font-weight: bold;
 }
 
+.tabs li {
+	cursor: pointer;
+}
+
 .tabs li:hover {
 	color:#f90;
 	}
